@@ -1,0 +1,42 @@
+body {
+  background-color: darkgrey;
+}
+@media (max-width: 767px) {
+  .discussion-menu {
+    justify-content: center !important;
+  }
+}
+
+.picture-size {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+body {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+/* 暗色模式 */
+.dark-theme {
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+/* 浅色模式 */
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.card {
+  background-color: inherit !important; /* 让 card 继承 body 颜色 */
+  border: 1px solid darkgray; /* 细的白色边框 */
+  border-radius: 10px; /* 让边框有圆角 */
+  padding: 15px;
+}
+
+.empty-space {
+  height: 80px; /* 让这个 div 为空出 80px 高度 */
+}
